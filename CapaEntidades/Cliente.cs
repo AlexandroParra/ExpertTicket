@@ -21,6 +21,8 @@ namespace CapaEntidades
         public string CodigoPostal { get; set; }
 
         public string Email { get; set; }
+
+        public Cliente() { base.CodDescEntidad = "CLI"; }
         
     }
 }
